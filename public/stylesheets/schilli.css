@@ -1,0 +1,25 @@
+.body{
+	font-family: 'Rubik', sans-serif;
+}
+
+
+.jumbotron{
+	.container{
+		 background-color:#B22222;
+	}	
+}
+
+#mainJumbo{
+	color:#FFF8E0;
+	background-color:#B22222;
+	border-radius:10px;
+
+}
+.nav.navbar-nav > li > a {
+	color: #FFF8E0;
+}
+
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}

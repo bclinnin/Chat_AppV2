@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- common include for css and js files -->
+    <% include ../schilli/includes/schilli_header.ejs %>
+  </head>
+  <body>
+    <!-- include nav bar shared amongst all primary pages -->
+    <% include ../schilli/includes/schilli_navbar.ejs %>
+    <div class="container">
+      <div class="jumbotron text-center">
+        <div id="mainJumbo">
+          <h1>Schilli Transportation Services</h1>
+          <h4>Customer focused, long-term solutions</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <% include ../schilli/includes/schilli_carousel.ejs %>
+        </div>
+        <div class="col-md-6">
+          <h4> Providing supply chain logistics solutions: third-party (3PL), dedicated service with EDI dispatch and load tracking, asset based fleet of company equipment including vans, flatbeds with lightweight flatbed trailers for greater payload capacity, van trailers equipped with cranes, and dump trailers, warehousing and distribution, export packaging, transportation tractor and trailer sales, leasing and repair. Schilli Transportation Services is the full service provider you need to move your products to your customer safely, efficiently, and economically.</h4>
+
+        </div>        
+      </div> <!-- end row -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="text-center"> Our History </h2>
+          <% include ../schilli/includes/schilli_history.ejs %>
+        </div>
+        <div class="col-md-4">
+          <h2 class="text-center"> Our Mission </h2>
+          <% include ../schilli/includes/schilli_mission.ejs %> 
+        </div>
+        <div class="col-md-4">
+          <h2 class="text-center"> Our Vision </h2>
+          <% include ../schilli/includes/schilli_vision.ejs %>
+        </div>                
+
+      </div><!-- end row -->
+
+
+    </div>  
+
+
+  </body>
+</html>
